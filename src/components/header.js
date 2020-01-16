@@ -6,10 +6,10 @@ import '../App.css';
 
 const StyledHeader = styled.div`
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: #222;
-    height: 150px;
-    padding: 20px;
+    height: 60px;
+    padding: 0 20px;
     color: white;
 `;
 
@@ -20,8 +20,6 @@ const StyledMenuWrap = styled.div`
 const Header = () => {
     return (
         <StyledHeader >
-            <h2>Joel McKnight - Front End Developer</h2>
-
             <StyledMenuWrap>Home / Portfolio / Github / Contact Me </StyledMenuWrap>
             {/* <img src={logo} className="App-logo" alt="logo" /> */}
         </StyledHeader>
