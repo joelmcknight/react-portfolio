@@ -7,7 +7,7 @@
 /coverage
 
 # production
-/build
+# /build       commenting this out so that repo has access to build files for deployment
 
 # misc
 .DS_Store
